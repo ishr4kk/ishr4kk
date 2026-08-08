@@ -1,73 +1,10 @@
-<div align="center">
-
-<!-- ====================== ASTEROID FIELD BACKGROUND ====================== -->
-<div class="space-bg"></div>
-
-<!-- ======================= GLITCH NAME + CURSOR ======================= -->
-<br><br>
-  <h1 class="glitch" data-glitch="𝓘𝓼𝓱𝓻𝓪𝓴">𝓘𝓼𝓱𝓻𝓪𝓴</h1>
-  <span class="cursor">_</span>
-<br><br>
-
-<!-- ====================== VAPORWAVE DIVIDER ====================== -->
-  <div class="vapor-divider">
-    <span>━━━｡･ﾟ: *✧*ﾟ･┅━</span>
-  </div>
-
-<!-- ====================== TYPEWRITER BIO ====================== -->
-  <div class="typewriter">
-    <p class="bio-line">Hello, <b>Ishr4k</b> here. I'm just a student — I code to pass my free time, just a beginner with a dream.</p>
-    <p class="bio-line delay-1">I have a dream to work with <b>𝔸𝕣𝕥𝕚𝕗𝕚𝕔𝕚𝕒𝕝 𝕀𝕟𝕥𝕖𝕝𝕝𝕚𝕘𝕖𝕟𝕔𝕖</b></p>
-    <p class="bio-line delay-2">#right AI in aesthetic way ✨</p>
-  </div>
-<br>
-
-<!-- ====================== SOCIAL BUTTONS ====================== -->
-  <p align="center">
-    <b>✦ add with me in: ✦</b>
-  </p>
-  <br>
-  <a href="https://www.instagram.com/ishr4k._" target="_blank">
-    <img src="https://img.shields.io/badge/𝕀𝕟𝕤𝕥𝕒𝕘𝕣𝕒𝕞-E4405F?style=flat-square&labelColor=000000&color=C13561&logoColor=white&style=for-the-badge&logo=instagram" alt="Instagram" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://discordapp.com/users/778585286044942358" target="_blank">
-    <img src="https://img.shields.io/badge/𝔻𝕚𝕤𝕔𝕠𝕣𝕕-5865F2?style=flat-square&labelColor=000000&color=5865F2&logoColor=white&style=for-the-badge&logo=discord" alt="Discord" />
-  </a>
-
-<br><br>
-
-<!-- ======================= NEON FOOTER ======================= -->
-  <div class="neon-box">
-    <p>📅 Born: <b>07 / 10 / 2007</b>  •  📍 <b>Bangladesh</b></p>
-    <div class="pulse-dot"></div>
-  </div>
-
-<br>
-
-<!-- ====================== THE GIF ====================== -->
-  <div class="gif-frame">
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2hqZnlydWR1OWcxN201N2lmcnVuYTV5Ym50eGllNDc2cDFkcjcxbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KxbHmvL3MGcctzlfdX/giphy.gif" alt="aesthetic" width="420"/>
-  </div>
-
-  <br><br>
-
-<!-- ====================== VISITOR COUNTER ====================== -->
-  <img src="https://profile-counter.glitch.me/%3C3ishr4k%3C%2F3/count?background=F0F8FF&text=000000&icon=computer-symbol&iconColor=FFFFFF" alt="visitor count" style="border-radius:12px;border:2px solid #ff6b6b;padding:4px 12px" />
-
-  <p style="font-size:11px;color:#888;margin-top:20px">
-    "Dream big, start small, but always stay curious." ✧･ﾟ: *✧*:･ﾟ✧
-  </p>
-
-</div>
-
 <!-- ====================== ALL THE MAGIC CSS ====================== -->
 <style>
   /* ===== Cosmic starfield background ===== */
   .space-bg {
     position: fixed;
     top: 0; left: 0; width: 100%; height: 100%;
-        background: radial-gradient(circle at 20% 50%, rgba(138,43,226,0.15) 0%, transparent 50%),
+    background: radial-gradient(circle at 20% 50%, rgba(138,43,226,0.15) 0%, transparent 50%),
                 radial-gradient(circle at 80% 80%, rgba(0,255,255,0.1) 0%, transparent 50%);
     z-index: -1;
     pointer-events: none;
@@ -80,12 +17,7 @@
     text-align: center;
     margin: 20px 0;
     color: #ff00ff;
-    text-shadow:
-      0 0 3px #fff,
-      0 0 6px #ff00ff,
-      0 0 12px #ff00ff,
-      0 0 24px #ff00ff,
-      0 0 48px #00ffff;
+    text-shadow: 0 0 3px #fff, 0 0 6px #ff00ff, 0 0 12px #ff00ff, 0 0 24px #ff00ff, 0 0 48px #00ffff;
     letter-spacing: 3px;
     animation: glow-pulse 2.5s ease-in-out infinite;
   }
@@ -104,13 +36,7 @@
     letter-spacing: 4px;
     position: relative;
     margin: 0;
-    text-shadow:
-      0 0 5px #fff,
-      0 0 10px #fff,
-      0 0 20px #ff00ff,
-      0 0 40px #ff00ff,
-      0 0 80px #ff00ff,
-      0 0 90px #ff00ff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 40px #ff00ff, 0 0 80px #ff00ff, 0 0 90px #ff00ff;
     animation: pulse 2s infinite ease-in-out;
   }
   .glitch::before,
@@ -136,16 +62,16 @@
     50% { opacity: 0.4; }
   }
   @keyframes glitch-anim {
-    0% { clip: rect(5px, 9999px, 5px, 0); }
-    10% { clip: rect(10px, 9999px, 120px, 0); }
-    20% { clip: rect(80px, 9999px, 190px, 0); }
-    30% { clip: rect(60px, 9999px, 270px, 0); }
-    40% { clip: rect(120px, 9999px, 350px, 0); }
-    50% { clip: rect(200px, 9999px, 430px, 0); }
-    60% { clip: rect(180px, 9999px, 510px, 0); }
-    70% { clip: rect(260px, 9999px, 590px, 0); }
-    80% { clip: rect(320px, 9999px, 670px, 0); }
-    90% { clip: rect(360px, 9999px, 750px, 0); }
+    0%   { clip: rect(5px, 9999px, 5px, 0); }
+    10%  { clip: rect(10px, 9999px, 120px, 0); }
+    20%  { clip: rect(80px, 9999px, 190px, 0); }
+    30%  { clip: rect(60px, 9999px, 270px, 0); }
+    40%  { clip: rect(120px, 9999px, 350px, 0); }
+    50%  { clip: rect(200px, 9999px, 430px, 0); }
+    60%  { clip: rect(180px, 9999px, 510px, 0); }
+    70%  { clip: rect(260px, 9999px, 590px, 0); }
+    80%  { clip: rect(320px, 9999px, 670px, 0); }
+    90%  { clip: rect(360px, 9999px, 750px, 0); }
     100% { clip: rect(400px, 9999px, 830px, 0); }
   }
 
@@ -175,11 +101,7 @@
     line-height: 1.8;
     color: #e0e0ff;
     margin: 0;
-    text-shadow:
-      0 0 3px #fff,
-      0 0 6px #ff00ff,
-      0 0 12px #ff00ff,
-      0 0 24px #ff00ff;
+    text-shadow: 0 0 3px #fff, 0 0 6px #ff00ff, 0 0 12px #ff00ff, 0 0 24px #ff00ff;
     width: 100%;
     opacity: 0;
     animation: fadeIn 0.5s forwards;
@@ -202,11 +124,7 @@
     border-radius: 16px;
     padding: 20px 40px;
     display: inline-block;
-    box-shadow:
-      0 0 10px #00ffff,
-      0 0 20px #00ffff,
-      0 0 40px #00ffff,
-      inset 0 0 10px #00ffff;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 40px #00ffff, inset 0 0 10px #00ffff;
     position: relative;
     backdrop-filter: blur(5px);
   }
@@ -214,10 +132,7 @@
     font-family: 'Courier New', monospace;
     font-size: 1.1rem;
     color: #00ffff;
-    text-shadow:
-      0 0 3px #fff,
-      0 0 6px #00ffff,
-      0 0 12px #00ffff;
+    text-shadow: 0 0 3px #fff, 0 0 6px #00ffff, 0 0 12px #00ffff;
     margin: 0;
     letter-spacing: 1px;
   }
@@ -240,11 +155,7 @@
     border-radius: 20px;
     padding: 8px;
     background: linear-gradient(135deg, #ff00ff 0%, #00ffff 50%, #ff00ff 100%);
-    box-shadow:
-      0 0 15px #ff00ff,
-      0 0 30px #ff00ff,
-      0 0 60px #00ffff,
-      0 0 90px #00ffff;
+    box-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 60px #00ffff, 0 0 90px #00ffff;
     display: inline-block;
     animation: frame-glow 3s ease-in-out infinite;
   }
@@ -254,4 +165,65 @@
   }
 </style>
 
+<div align="center">
 
+<!-- ====================== ASTEROID FIELD BACKGROUND ====================== -->
+<div class="space-bg"></div>
+
+<!-- ======================= GLITCH NAME + CURSOR ======================= -->
+<br><br>
+  <h1 class="glitch" data-glitch="𝓘𝓼𝓱𝓻𝓪𝓴">𝓘𝓼𝓱𝓻𝓪𝓴</h1>
+  <span class="cursor">_</span>
+<br><br>
+
+<!-- ====================== VAPORWAVE DIVIDER ====================== -->
+  <div class="vapor-divider">
+    <span>━━━｡･ﾟ: *✧*ﾟ･┅━</span>
+  </div>
+
+<!-- ====================== TYPEWRITER BIO ====================== -->
+  <div class="typewriter">
+    <p class="bio-line">Hello, <b>Ishr4k</b> here. I'm just a student — I code to pass my free time, just a beginner with a dream.</p>
+    <p class="bio-line">I have a dream to work with <b>𝔸𝕣𝕥𝕚𝕗𝕚𝕔𝕚𝕒𝕝 𝕀𝕟𝕥𝕖𝕝𝕝𝕚𝕘𝕖𝕟𝕔𝕖</b></p>
+    <p class="bio-line">#right AI in aesthetic way ✨</p>
+  </div>
+<br>
+
+<!-- ====================== SOCIAL BUTTONS ====================== -->
+  <p align="center">
+    <b>✦ add with me in: ✦</b>
+  </p>
+  <br>
+  <a href="https://www.instagram.com/ishr4k._" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&labelColor=000000&color=C13561&logoColor=white&style=for-the-badge&logo=instagram" alt="Instagram" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://discordapp.com/users/778585286044942358" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&labelColor=000000&color=5865F2&logoColor=white&style=for-the-badge&logo=discord" alt="Discord" />
+  </a>
+
+<br><br>
+
+<!-- ======================= NEON FOOTER ======================= -->
+  <div class="neon-box">
+    <p>📅 Born: <b>07 / 10 / 2007</b>  •  📍 <b>Bangladesh</b></p>
+    <div class="pulse-dot"></div>
+  </div>
+
+<br>
+
+<!-- ====================== THE GIF ====================== -->
+  <div class="gif-frame">
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2hqZnlydWR1OWcxN201N2lmcnVuYTV5Ym50eGllNDc2cDFkcjcxbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KxbHmvL3MGcctzlfdX/giphy.gif" alt="aesthetic" width="420"/>
+  </div>
+
+  <br><br>
+
+<!-- ====================== VISITOR COUNTER ====================== -->
+  <img src="https://komarev.com/ghpvc/?username=ishr4k&style=flat-square&color=FF00FF&label=PROFILE+VISITS&labelColor=000000" alt="visitor count" style="border-radius:12px;border:2px solid #ff6b6b;padding:4px 12px" />
+
+  <p style="font-size:11px;color:#888;margin-top:20px">
+    "Dream big, start small, but always stay curious." ✧･ﾟ: *✧*:･ﾟ✧
+  </p>
+
+</div>
